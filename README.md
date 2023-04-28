@@ -1,7 +1,8 @@
 # AddtitiveUI
-### A set of extensions to ease using of repetitive useful methods and variables.
+
+<h5>It's comprised of common ui-views, extensions, and modifiers.</h5>
+
 <img src="https://github.com/hamed8080/additive-ui/raw/main/images/icon.png"  width="64" height="64">
-<br />
 
 ## Features
 
@@ -29,9 +30,8 @@ pod 'AdditiveUI'
 ```
 <br/>
 
-## [Documentation](https://hamed8080.gitlab.io/additive/documentation/additive-ui/)
-For more information about how to use AdditiveUI visit [Documentation](https://hamed8080.gitlab.io/additive/documentation/additive-ui/) 
-<br/>
+## [Documentation](https://hamed8080.github.io/additive-ui/documentation/additiveui/)
+For more information about how to use AdditiveUI visit [Documentation](https://hamed8080.github.io/additive-ui/documentation/additiveui/) 
 <br/>
 
 ## Contributing to Additive

@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "AdditiveUI"
   s.version      = "1.0.0"
   s.summary      = "AdditiveUI"
-  s.description  = "Additive is a set of UI extensions and custom views."
+  s.description  = "It's comprised of common ui-views, extensions, and modifiers."
   s.homepage     = "https://pubgi.fanapsoft.ir/chat/ios/additive-ui"
   s.license      = "MIT"
   s.author       = { "Hamed Hosseini" => "hamed8080@gmail.com" }
