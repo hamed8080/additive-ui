@@ -1,0 +1,400 @@
+{
+  "abstract" : [
+    {
+      "text" : "It’s comprised of common ui-views, extensions, and modifiers.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "AdditiveUI",
+    "images" : [
+      {
+        "identifier" : "icon.png",
+        "type" : "icon"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AdditiveUI"
+      }
+    ],
+    "platforms" : [
+      {
+        "introducedAt" : "10.0",
+        "name" : "iOS"
+      },
+      {
+        "introducedAt" : "12",
+        "name" : "macOS"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "AdditiveUI"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/AnimatingCellHeight",
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/BorderedTextFieldStyle",
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/CustomDialog",
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/KeyboardResponsiveModifier",
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/PrimaryCustomDialog",
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/PrimaryTextField",
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/RoundedCorner",
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/TopNotifyViewModifire",
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/ViewOffsetKey"
+      ],
+      "title" : "Structures"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/additiveui"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AdditiveUI/documentation/AdditiveUI": {
+  "abstract" : [
+    {
+      "text" : "It’s comprised of common ui-views, extensions, and modifiers.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI",
+  "images" : [
+    {
+      "identifier" : "icon.png",
+      "type" : "icon"
+    }
+  ],
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AdditiveUI",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/AnimatingCellHeight": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AnimatingCellHeight"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/AnimatingCellHeight",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AnimatingCellHeight"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AnimatingCellHeight",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/animatingcellheight"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/BorderedTextFieldStyle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BorderedTextFieldStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/BorderedTextFieldStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BorderedTextFieldStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BorderedTextFieldStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/borderedtextfieldstyle"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/CustomDialog": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CustomDialog"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/CustomDialog",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CustomDialog"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CustomDialog",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/customdialog"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/KeyboardResponsiveModifier": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "KeyboardResponsiveModifier"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/KeyboardResponsiveModifier",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "KeyboardResponsiveModifier"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "KeyboardResponsiveModifier",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/keyboardresponsivemodifier"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/PrimaryCustomDialog": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PrimaryCustomDialog"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/PrimaryCustomDialog",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PrimaryCustomDialog"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PrimaryCustomDialog",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/primarycustomdialog"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/PrimaryTextField": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PrimaryTextField"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/PrimaryTextField",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PrimaryTextField"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PrimaryTextField",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/primarytextfield"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/RoundedCorner": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RoundedCorner"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/RoundedCorner",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RoundedCorner"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RoundedCorner",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/roundedcorner"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/TopNotifyViewModifire": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TopNotifyViewModifire"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/TopNotifyViewModifire",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TopNotifyViewModifire"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TopNotifyViewModifire",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/topnotifyviewmodifire"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/ViewOffsetKey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ViewOffsetKey"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/ViewOffsetKey",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ViewOffsetKey"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewOffsetKey",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/viewoffsetkey"
+},
+"icon.png": {
+  "alt" : "App icon.",
+  "identifier" : "icon.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/icon.png"
+    }
+  ]
+}
+}
+}

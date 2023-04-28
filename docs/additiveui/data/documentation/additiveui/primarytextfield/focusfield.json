@@ -1,0 +1,267 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI",
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/PrimaryTextField"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/PrimaryTextField\/FocusField"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10AdditiveUI16PrimaryTextFieldV05FocusE0O",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "FocusField"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AdditiveUI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "FocusField"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "PrimaryTextField.FocusField"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "FocusField"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/AdditiveUI\/SQ",
+        "doc:\/\/AdditiveUI\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/PrimaryTextField\/FocusField\/field"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/PrimaryTextField\/FocusField\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/additiveui\/primarytextfield\/focusfield"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AdditiveUI/SH": {
+  "identifier" : "doc:\/\/AdditiveUI\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://AdditiveUI/SQ": {
+  "identifier" : "doc:\/\/AdditiveUI\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://AdditiveUI/documentation/AdditiveUI": {
+  "abstract" : [
+    {
+      "text" : "It’s comprised of common ui-views, extensions, and modifiers.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI",
+  "images" : [
+    {
+      "identifier" : "icon.png",
+      "type" : "icon"
+    }
+  ],
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AdditiveUI",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/PrimaryTextField": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PrimaryTextField"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/PrimaryTextField",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PrimaryTextField"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PrimaryTextField",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/primarytextfield"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/PrimaryTextField/FocusField": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FocusField"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/PrimaryTextField\/FocusField",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FocusField"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PrimaryTextField.FocusField",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/primarytextfield\/focusfield"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/PrimaryTextField/FocusField/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/PrimaryTextField\/FocusField\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/primarytextfield\/focusfield\/equatable-implementations"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/PrimaryTextField/FocusField/field": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "field"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/PrimaryTextField\/FocusField\/field",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "PrimaryTextField.FocusField.field",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/primarytextfield\/focusfield\/field"
+},
+"icon.png": {
+  "alt" : "App icon.",
+  "identifier" : "icon.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/icon.png"
+    }
+  ]
+}
+}
+}

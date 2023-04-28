@@ -1,0 +1,222 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI",
+        "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/AnimatingCellHeight"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/AnimatingCellHeight\/init(height:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10AdditiveUI19AnimatingCellHeightV6heightAC14CoreFoundation7CGFloatV_tcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "height"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+        "text" : "CGFloat"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AdditiveUI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(height:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "height"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+              "text" : "CGFloat"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/additiveui\/animatingcellheight\/init(height:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AdditiveUI/documentation/AdditiveUI": {
+  "abstract" : [
+    {
+      "text" : "It’s comprised of common ui-views, extensions, and modifiers.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI",
+  "images" : [
+    {
+      "identifier" : "icon.png",
+      "type" : "icon"
+    }
+  ],
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AdditiveUI",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/AnimatingCellHeight": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AnimatingCellHeight"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/AnimatingCellHeight",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AnimatingCellHeight"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AnimatingCellHeight",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/animatingcellheight"
+},
+"doc://AdditiveUI/documentation/AdditiveUI/AnimatingCellHeight/init(height:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "height"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+      "text" : "CGFloat"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/AdditiveUI\/documentation\/AdditiveUI\/AnimatingCellHeight\/init(height:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(height:)",
+  "type" : "topic",
+  "url" : "\/documentation\/additiveui\/animatingcellheight\/init(height:)"
+},
+"icon.png": {
+  "alt" : "App icon.",
+  "identifier" : "icon.png",
+  "type" : "image",
+  "variants" : [
+    {
+      "traits" : [
+        "1x",
+        "light"
+      ],
+      "url" : "\/images\/icon.png"
+    }
+  ]
+}
+}
+}
