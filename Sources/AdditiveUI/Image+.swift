@@ -2,7 +2,7 @@
 // Image+.swift
 // Copyright (c) 2022 AdditiveUI
 //
-// Created by Hamed Hosseini on 9/27/22.
+// Created by Hamed Hosseini on 12/14/22
 
 #if canImport(SwiftUI) && canImport(UIKit)
 import UIKit

@@ -1,9 +1,8 @@
 //
-//  KeyboardResponsiveModifier.swift
-//  ChatApplication
+// KeyboardResponsiveModifier.swift
+// Copyright (c) 2022 AdditiveUI
 //
-//  Created by Hamed on 1/15/22.
-//
+// Created by Hamed Hosseini on 12/14/22
 
 #if canImport(SwiftUI)
 import SwiftUI

@@ -1,9 +1,9 @@
 //
-//  AnimatingCellHeight.swift
-//  ChatApplication
+// AnimatingCellHeight.swift
+// Copyright (c) 2022 AdditiveUI
 //
-//  Created by hamed on 2/19/22.
-//
+// Created by Hamed Hosseini on 12/14/22
+
 
 #if canImport(SwiftUI)
 import SwiftUI

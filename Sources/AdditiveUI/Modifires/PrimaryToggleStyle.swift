@@ -1,9 +1,8 @@
 //
-//  PrimaryToggleStyle.swift
-//  ChatApplication
+// PrimaryToggleStyle.swift
+// Copyright (c) 2022 AdditiveUI
 //
-//  Created by Hamed Hosseini on 12/13/21.
-//
+// Created by Hamed Hosseini on 12/14/22
 
 #if canImport(SwiftUI)
 import SwiftUI

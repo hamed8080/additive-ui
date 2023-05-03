@@ -2,7 +2,7 @@
 
 <h5>It's comprised of common ui-views, extensions, and modifiers.</h5>
 
-<img src="https://github.com/hamed8080/additive-ui/raw/main/images/icon.png"  width="64" height="64">
+<img src="https://github.com/hamed8080/additive-ui/raw/main/images/icon.png"  width="164" height="164">
 
 ## Features
 
@@ -18,7 +18,7 @@
 Add in `Package.swift` or directly in `Xcode Project dependencies` section:
 
 ```swift
-.package(url: "https://github.com/hamed8080/additive-ui.git", .upToNextMinor(from: "1.0.0")),
+.package(url: "https://github.com/hamed8080/additive-ui.git", .upToNextMinor(from: "1.0.1")),
 ```
 
 #### [CocoaPods](https://cocoapods.org) 
@@ -26,7 +26,7 @@ Add in `Package.swift` or directly in `Xcode Project dependencies` section:
 Add in `Podfile`:
 
 ```ruby
-pod 'AdditiveUI'
+pod "AdditiveUI", :git => 'http://pubgi.fanapsoft.ir/chat/ios/additive-ui.git', :tag => '1.0.1'
 ```
 <br/>
 
