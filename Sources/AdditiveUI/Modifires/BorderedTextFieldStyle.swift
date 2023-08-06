@@ -10,21 +10,36 @@ import SwiftUI
 public struct BorderedTextFieldStyle: TextFieldStyle {
     let minHeight: CGFloat
     let cornerRadius: CGFloat
+    let bgColor: Color
+    let borderColor: Color
+    let padding: CGFloat
+    let strokeStyle: StrokeStyle
 
-    public init(minHeight: CGFloat = 36, cornerRadius: CGFloat = 5) {
+    public init(minHeight: CGFloat = 36,
+                cornerRadius: CGFloat = 5,
+                bgColor: Color = .gray.opacity(0.05),
+                borderColor: Color = .gray.opacity(0.6),
+                padding: CGFloat = 8,
+                strokeStyle: StrokeStyle = .init(lineWidth: 1, lineCap: .round, lineJoin: .round)
+    ) {
         self.minHeight = minHeight
         self.cornerRadius = cornerRadius
+        self.bgColor = bgColor
+        self.padding = padding
+        self.borderColor = borderColor
+        self.strokeStyle = strokeStyle
     }
 
     public func _body(configuration: TextField<_Label>) -> some View {
         configuration
             .frame(minHeight: minHeight)
-            .padding(8)
-            .background(Color.gray.opacity(0.05))
+            .padding(padding)
+            .background(bgColor)
             .cornerRadius(cornerRadius)
             .overlay(
                 RoundedRectangle(cornerRadius: cornerRadius)
-                    .stroke(Color.gray.opacity(0.6), lineWidth: 1)
+                    .stroke(style: strokeStyle)
+                    .stroke(borderColor)
             )
     }
 }
@@ -42,6 +57,10 @@ extension TextFieldStyle where Self == BorderedTextFieldStyle {
     /// A custom bordered text filed style.
     public static func customBorderedWith(minHeight: CGFloat = 36, cornerRadius: CGFloat = 5) -> BorderedTextFieldStyle { BorderedTextFieldStyle(minHeight: minHeight, cornerRadius: cornerRadius) }
     public static var customBordered: BorderedTextFieldStyle { BorderedTextFieldStyle() }
+    public static var clear: BorderedTextFieldStyle { BorderedTextFieldStyle(minHeight: 36,
+                                                                             cornerRadius: 0,
+                                                                             bgColor: .clear,
+                                                                             borderColor: .clear) }
 }
 
 #endif
