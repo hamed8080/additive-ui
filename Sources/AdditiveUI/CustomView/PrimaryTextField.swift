@@ -40,10 +40,7 @@ public struct PrimaryTextField: View {
     }
 
     public var body: some View {
-        TextField(
-            title,
-            text: $textBinding
-        ) { isEditing in
+        TextField(String(localized: .init(title)), text: $textBinding) { isEditing in
             self.isEditing = isEditing
         } onCommit: {
             onCommit?()

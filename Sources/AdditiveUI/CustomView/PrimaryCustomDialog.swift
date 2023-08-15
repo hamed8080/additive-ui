@@ -27,8 +27,8 @@ public struct PrimaryCustomDialog: View {
                 textBinding: Binding<String>? = nil,
                 hideDialog: Binding<Bool>,
                 textPlaceholder: String? = nil,
-                submitTitle: String = "Submit",
-                cancelTitle: String = "Cancel",
+                submitTitle: String = "General.submit",
+                cancelTitle: String = "General.cancel",
                 onSubmit: ((String) -> Void)? = nil,
                 onClose: (() -> Void)? = nil) {
         self.title = title
@@ -54,11 +54,11 @@ public struct PrimaryCustomDialog: View {
                     .foregroundColor(Color.gray)
             }
 
-            Text(title)
+            Text(String(localized: .init(title)))
                 .font(titleFont)
                 .padding([.top, .bottom])
             if let message = message {
-                Text(message)
+                Text(String(localized: .init(message)))
                     .font(messageFont)
                     .multilineTextAlignment(.leading)
                     .foregroundColor(Color.gray)
@@ -74,12 +74,12 @@ public struct PrimaryCustomDialog: View {
                     .padding(.bottom)
             }
 
-            Button(submitTitle) {
+            Button(String(localized: .init(submitTitle))) {
                 onSubmit?(textBinding?.wrappedValue ?? "")
                 hideDialog.toggle()
             }
 
-            Button(cancelTitle) {
+            Button(String(localized: .init(cancelTitle))) {
                 withAnimation {
                     hideDialog.toggle()
                     onClose?()
