@@ -42,6 +42,8 @@ public struct TopNotifyViewModifire<ContentView: View>: ViewModifier {
             content
                 .animation(.easeInOut, value: isShowing)
                 .blur(radius: isShowing ? 5 : 0)
+        }
+        .overlay {
             if isShowing {
                 VStack {
                     toast
@@ -54,7 +56,6 @@ public struct TopNotifyViewModifire<ContentView: View>: ViewModifier {
                 .transition(.move(edge: .top))
             }
         }
-        .ignoresSafeArea()
         .onChange(of: isShowing) { newValue in
             if newValue == true {
                 DispatchQueue.main.asyncAfter(deadline: .now() + duration) {
