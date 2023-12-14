@@ -26,20 +26,17 @@ public struct KeyboardResponsiveModifier: ViewModifier {
 }
 
 public struct KeyboardSizeReader: ViewModifier {
-    var onSizeChanged: (CGSize) -> ()
+    var onSizeChanged: ((CGSize) -> ())?
 
     public func body(content: Content) -> some View {
         content
-            .onAppear {
-                NotificationCenter.default.addObserver(forName: UIResponder.keyboardWillShowNotification, object: nil, queue: .main) { notification in
-                    if let rect = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect {
-                        onSizeChanged(rect.size)
-                    }
+            .onReceive(NotificationCenter.default.publisher(for: UIResponder.keyboardWillShowNotification)) { notification in
+                if let rect = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect {
+                    onSizeChanged?(rect.size)
                 }
-
-                NotificationCenter.default.addObserver(forName: UIResponder.keyboardWillHideNotification, object: nil, queue: .main) { _ in
-                    onSizeChanged(.zero)
-                }
+            }
+            .onReceive(NotificationCenter.default.publisher(for: UIResponder.keyboardWillHideNotification)) { notification in
+                onSizeChanged?(.zero)
             }
     }
 }
