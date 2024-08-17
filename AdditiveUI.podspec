@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AdditiveUI"
-  s.version      = "1.2.2"
+  s.version      = "1.2.3"
   s.summary      = "AdditiveUI"
   s.description  = "It's comprised of common ui-views, extensions, and modifiers."
   s.homepage     = "https://pubgi.sandpod.ir/chat/ios/additive-ui"
